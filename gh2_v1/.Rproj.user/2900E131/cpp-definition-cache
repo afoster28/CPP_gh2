@@ -1,0 +1,1671 @@
+[
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/AntiThetic.cpp",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@AntiThetic@F@clone#1",
+                "kind": 7,
+                "parent_name": "AntiThetic",
+                "name": "clone",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/AntiThetic.cpp",
+                "line": 15,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AntiThetic@F@GetUniforms#&$@S@MJArray#",
+                "kind": 7,
+                "parent_name": "AntiThetic",
+                "name": "GetUniforms(MJArray &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/AntiThetic.cpp",
+                "line": 20,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AntiThetic@F@SetSeed#l#",
+                "kind": 7,
+                "parent_name": "AntiThetic",
+                "name": "SetSeed(unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/AntiThetic.cpp",
+                "line": 40,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AntiThetic@F@Skip#l#",
+                "kind": 7,
+                "parent_name": "AntiThetic",
+                "name": "Skip(unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/AntiThetic.cpp",
+                "line": 46,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AntiThetic@F@ResetDimensionality#l#",
+                "kind": 7,
+                "parent_name": "AntiThetic",
+                "name": "ResetDimensionality(unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/AntiThetic.cpp",
+                "line": 66,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AntiThetic@F@Reset#",
+                "kind": 7,
+                "parent_name": "AntiThetic",
+                "name": "Reset",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/AntiThetic.cpp",
+                "line": 73,
+                "column": 18,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/AntiThetic.h",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@AntiThetic",
+                "kind": 2,
+                "parent_name": "",
+                "name": "AntiThetic",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/AntiThetic.h",
+                "line": 9,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+        "file_last_write": 1714497890.0,
+        "definitions": [
+            {
+                "usr": "c:@S@MJArray@F@operator=#&1$@S@MJArray#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator=(const MJArray &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+                "line": 56,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@resize#l#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "resize(unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+                "line": 84,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator+=#&1$@S@MJArray#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator+=(const MJArray &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+                "line": 106,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator-=#&1$@S@MJArray#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator-=(const MJArray &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+                "line": 124,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator/=#&1$@S@MJArray#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator/=(const MJArray &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+                "line": 142,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator*=#&1$@S@MJArray#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator*=(const MJArray &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+                "line": 160,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator+=#&1d#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator+=(const double &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+                "line": 180,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator-=#&1d#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator-=(const double &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+                "line": 190,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator/=#&1d#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator/=(const double &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+                "line": 200,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator*=#&1d#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator*=(const double &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+                "line": 209,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator=#&1d#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator=(const double &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+                "line": 218,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@sum#1",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "sum",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+                "line": 226,
+                "column": 17,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@min#1",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "min",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+                "line": 233,
+                "column": 17,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@max#1",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "max",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+                "line": 251,
+                "column": 17,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@apply#*Fd(#d)#1",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "apply(double (*)(double))",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.cpp",
+                "line": 266,
+                "column": 18,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.h",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@MJArray",
+                "kind": 2,
+                "parent_name": "",
+                "name": "MJArray",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.h",
+                "line": 15,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator[]#l#1",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator[](unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.h",
+                "line": 64,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator[]#l#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator[](unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.h",
+                "line": 77,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@size#1",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "size",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Arrays.h",
+                "line": 89,
+                "column": 31,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/ConfLimits.cpp",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@ConfidenceLimits@F@DumpOneResult#d#",
+                "kind": 7,
+                "parent_name": "ConfidenceLimits",
+                "name": "DumpOneResult(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/ConfLimits.cpp",
+                "line": 16,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ConfidenceLimits@F@GetResultsSoFar#1",
+                "kind": 7,
+                "parent_name": "ConfidenceLimits",
+                "name": "GetResultsSoFar",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/ConfLimits.cpp",
+                "line": 21,
+                "column": 43,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ConfidenceLimits@F@clone#1",
+                "kind": 7,
+                "parent_name": "ConfidenceLimits",
+                "name": "clone",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/ConfLimits.cpp",
+                "line": 36,
+                "column": 33,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ConfidenceLimits@F@reset#",
+                "kind": 7,
+                "parent_name": "ConfidenceLimits",
+                "name": "reset",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/ConfLimits.cpp",
+                "line": 42,
+                "column": 24,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/ConfLimits.h",
+        "file_last_write": 1713893984.0,
+        "definitions": [
+            {
+                "usr": "c:@S@ConfidenceLimits",
+                "kind": 2,
+                "parent_name": "",
+                "name": "ConfidenceLimits",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/ConfLimits.h",
+                "line": 8,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/ConvergenceTable.cpp",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@ConvergenceTable@F@clone#1",
+                "kind": 7,
+                "parent_name": "ConvergenceTable",
+                "name": "clone",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/ConvergenceTable.cpp",
+                "line": 14,
+                "column": 33,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ConvergenceTable@F@DumpOneResult#d#",
+                "kind": 7,
+                "parent_name": "ConvergenceTable",
+                "name": "DumpOneResult(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/ConvergenceTable.cpp",
+                "line": 20,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ConvergenceTable@F@GetResultsSoFar#1",
+                "kind": 7,
+                "parent_name": "ConvergenceTable",
+                "name": "GetResultsSoFar",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/ConvergenceTable.cpp",
+                "line": 42,
+                "column": 54,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ConvergenceTable@F@reset#",
+                "kind": 7,
+                "parent_name": "ConvergenceTable",
+                "name": "reset",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/ConvergenceTable.cpp",
+                "line": 59,
+                "column": 24,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/ConvergenceTable.h",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@ConvergenceTable",
+                "kind": 2,
+                "parent_name": "",
+                "name": "ConvergenceTable",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/ConvergenceTable.h",
+                "line": 9,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/MCStatistics.cpp",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@StatisticsMean@F@DumpOneResult#d#",
+                "kind": 7,
+                "parent_name": "StatisticsMean",
+                "name": "DumpOneResult(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/MCStatistics.cpp",
+                "line": 12,
+                "column": 22,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@StatisticsMean@F@GetResultsSoFar#1",
+                "kind": 7,
+                "parent_name": "StatisticsMean",
+                "name": "GetResultsSoFar",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/MCStatistics.cpp",
+                "line": 17,
+                "column": 41,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@StatisticsMean@F@clone#1",
+                "kind": 7,
+                "parent_name": "StatisticsMean",
+                "name": "clone",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/MCStatistics.cpp",
+                "line": 26,
+                "column": 31,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@StatisticsMean@F@reset#",
+                "kind": 7,
+                "parent_name": "StatisticsMean",
+                "name": "reset",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/MCStatistics.cpp",
+                "line": 30,
+                "column": 22,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/MCStatistics.h",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@StatisticsMC",
+                "kind": 2,
+                "parent_name": "",
+                "name": "StatisticsMC",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/MCStatistics.h",
+                "line": 8,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@StatisticsMean",
+                "kind": 2,
+                "parent_name": "",
+                "name": "StatisticsMean",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/MCStatistics.h",
+                "line": 24,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/MinMax.h",
+        "file_last_write": 1713893985.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Normals.cpp",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@F@NormalDensity#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "NormalDensity(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Normals.cpp",
+                "line": 19,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@InverseCumulativeNormal#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "InverseCumulativeNormal(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Normals.cpp",
+                "line": 25,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@CumulativeNormal#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "CumulativeNormal(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Normals.cpp",
+                "line": 84,
+                "column": 8,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/Own/cpp07/OptionPricer/src/Normals.h",
+        "file_last_write": 1713893984.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/AntiThetic.cpp",
+        "file_last_write": 1717872549.0,
+        "definitions": [
+            {
+                "usr": "c:@S@AntiThetic@F@clone#1",
+                "kind": 7,
+                "parent_name": "AntiThetic",
+                "name": "clone",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/AntiThetic.cpp",
+                "line": 15,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AntiThetic@F@GetUniforms#&$@S@MJArray#",
+                "kind": 7,
+                "parent_name": "AntiThetic",
+                "name": "GetUniforms(MJArray &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/AntiThetic.cpp",
+                "line": 20,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AntiThetic@F@SetSeed#l#",
+                "kind": 7,
+                "parent_name": "AntiThetic",
+                "name": "SetSeed(unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/AntiThetic.cpp",
+                "line": 40,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AntiThetic@F@Skip#l#",
+                "kind": 7,
+                "parent_name": "AntiThetic",
+                "name": "Skip(unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/AntiThetic.cpp",
+                "line": 46,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AntiThetic@F@ResetDimensionality#l#",
+                "kind": 7,
+                "parent_name": "AntiThetic",
+                "name": "ResetDimensionality(unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/AntiThetic.cpp",
+                "line": 66,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AntiThetic@F@Reset#",
+                "kind": 7,
+                "parent_name": "AntiThetic",
+                "name": "Reset",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/AntiThetic.cpp",
+                "line": 73,
+                "column": 18,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/AntiThetic.h",
+        "file_last_write": 1717872548.0,
+        "definitions": [
+            {
+                "usr": "c:@S@AntiThetic",
+                "kind": 2,
+                "parent_name": "",
+                "name": "AntiThetic",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/AntiThetic.h",
+                "line": 9,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+        "file_last_write": 1714497890.0,
+        "definitions": [
+            {
+                "usr": "c:@S@MJArray@F@operator=#&1$@S@MJArray#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator=(const MJArray &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+                "line": 56,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@resize#l#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "resize(unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+                "line": 84,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator+=#&1$@S@MJArray#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator+=(const MJArray &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+                "line": 106,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator-=#&1$@S@MJArray#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator-=(const MJArray &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+                "line": 124,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator/=#&1$@S@MJArray#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator/=(const MJArray &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+                "line": 142,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator*=#&1$@S@MJArray#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator*=(const MJArray &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+                "line": 160,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator+=#&1d#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator+=(const double &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+                "line": 180,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator-=#&1d#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator-=(const double &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+                "line": 190,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator/=#&1d#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator/=(const double &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+                "line": 200,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator*=#&1d#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator*=(const double &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+                "line": 209,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator=#&1d#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator=(const double &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+                "line": 218,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@sum#1",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "sum",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+                "line": 226,
+                "column": 17,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@min#1",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "min",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+                "line": 233,
+                "column": 17,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@max#1",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "max",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+                "line": 251,
+                "column": 17,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@apply#*Fd(#d)#1",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "apply(double (*)(double))",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.cpp",
+                "line": 266,
+                "column": 18,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.h",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@MJArray",
+                "kind": 2,
+                "parent_name": "",
+                "name": "MJArray",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.h",
+                "line": 15,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator[]#l#1",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator[](unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.h",
+                "line": 64,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@operator[]#l#",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "operator[](unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.h",
+                "line": 77,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@MJArray@F@size#1",
+                "kind": 7,
+                "parent_name": "MJArray",
+                "name": "size",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Arrays.h",
+                "line": 89,
+                "column": 31,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ConfLimits.cpp",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@ConfidenceLimits@F@DumpOneResult#d#",
+                "kind": 7,
+                "parent_name": "ConfidenceLimits",
+                "name": "DumpOneResult(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ConfLimits.cpp",
+                "line": 16,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ConfidenceLimits@F@GetResultsSoFar#1",
+                "kind": 7,
+                "parent_name": "ConfidenceLimits",
+                "name": "GetResultsSoFar",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ConfLimits.cpp",
+                "line": 21,
+                "column": 43,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ConfidenceLimits@F@clone#1",
+                "kind": 7,
+                "parent_name": "ConfidenceLimits",
+                "name": "clone",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ConfLimits.cpp",
+                "line": 36,
+                "column": 33,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ConfidenceLimits@F@reset#",
+                "kind": 7,
+                "parent_name": "ConfidenceLimits",
+                "name": "reset",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ConfLimits.cpp",
+                "line": 42,
+                "column": 24,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ConfLimits.h",
+        "file_last_write": 1713893984.0,
+        "definitions": [
+            {
+                "usr": "c:@S@ConfidenceLimits",
+                "kind": 2,
+                "parent_name": "",
+                "name": "ConfidenceLimits",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ConfLimits.h",
+                "line": 8,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ConvergenceTable.cpp",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@ConvergenceTable@F@clone#1",
+                "kind": 7,
+                "parent_name": "ConvergenceTable",
+                "name": "clone",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ConvergenceTable.cpp",
+                "line": 14,
+                "column": 33,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ConvergenceTable@F@DumpOneResult#d#",
+                "kind": 7,
+                "parent_name": "ConvergenceTable",
+                "name": "DumpOneResult(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ConvergenceTable.cpp",
+                "line": 20,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ConvergenceTable@F@GetResultsSoFar#1",
+                "kind": 7,
+                "parent_name": "ConvergenceTable",
+                "name": "GetResultsSoFar",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ConvergenceTable.cpp",
+                "line": 42,
+                "column": 54,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ConvergenceTable@F@reset#",
+                "kind": 7,
+                "parent_name": "ConvergenceTable",
+                "name": "reset",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ConvergenceTable.cpp",
+                "line": 59,
+                "column": 24,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ConvergenceTable.h",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@ConvergenceTable",
+                "kind": 2,
+                "parent_name": "",
+                "name": "ConvergenceTable",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ConvergenceTable.h",
+                "line": 9,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/MCStatistics.cpp",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@StatisticsMean@F@DumpOneResult#d#",
+                "kind": 7,
+                "parent_name": "StatisticsMean",
+                "name": "DumpOneResult(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/MCStatistics.cpp",
+                "line": 12,
+                "column": 22,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@StatisticsMean@F@GetResultsSoFar#1",
+                "kind": 7,
+                "parent_name": "StatisticsMean",
+                "name": "GetResultsSoFar",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/MCStatistics.cpp",
+                "line": 17,
+                "column": 41,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@StatisticsMean@F@clone#1",
+                "kind": 7,
+                "parent_name": "StatisticsMean",
+                "name": "clone",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/MCStatistics.cpp",
+                "line": 26,
+                "column": 31,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@StatisticsMean@F@reset#",
+                "kind": 7,
+                "parent_name": "StatisticsMean",
+                "name": "reset",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/MCStatistics.cpp",
+                "line": 30,
+                "column": 22,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/MCStatistics.h",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@StatisticsMC",
+                "kind": 2,
+                "parent_name": "",
+                "name": "StatisticsMC",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/MCStatistics.h",
+                "line": 8,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@StatisticsMean",
+                "kind": 2,
+                "parent_name": "",
+                "name": "StatisticsMean",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/MCStatistics.h",
+                "line": 24,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/MinMax.h",
+        "file_last_write": 1713893985.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Normals.cpp",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@F@NormalDensity#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "NormalDensity(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Normals.cpp",
+                "line": 19,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@InverseCumulativeNormal#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "InverseCumulativeNormal(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Normals.cpp",
+                "line": 25,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@CumulativeNormal#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "CumulativeNormal(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Normals.cpp",
+                "line": 84,
+                "column": 8,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Normals.h",
+        "file_last_write": 1713893984.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Parameters.cpp",
+        "file_last_write": 1713893984.0,
+        "definitions": [
+            {
+                "usr": "c:@S@Parameters@F@operator=#&1$@S@Parameters#",
+                "kind": 7,
+                "parent_name": "Parameters",
+                "name": "operator=(const Parameters &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Parameters.cpp",
+                "line": 13,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@Parameters@F@Mean#d#d#1",
+                "kind": 7,
+                "parent_name": "Parameters",
+                "name": "Mean(double, double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Parameters.cpp",
+                "line": 26,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@Parameters@F@RootMeanSquare#d#d#1",
+                "kind": 7,
+                "parent_name": "Parameters",
+                "name": "RootMeanSquare(double, double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Parameters.cpp",
+                "line": 31,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ParametersConstant@F@clone#1",
+                "kind": 7,
+                "parent_name": "ParametersConstant",
+                "name": "clone",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Parameters.cpp",
+                "line": 41,
+                "column": 38,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ParametersConstant@F@Integral#d#d#1",
+                "kind": 7,
+                "parent_name": "ParametersConstant",
+                "name": "Integral(double, double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Parameters.cpp",
+                "line": 46,
+                "column": 28,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ParametersConstant@F@IntegralSquare#d#d#1",
+                "kind": 7,
+                "parent_name": "ParametersConstant",
+                "name": "IntegralSquare(double, double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Parameters.cpp",
+                "line": 50,
+                "column": 28,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Parameters.h",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@ParametersInner",
+                "kind": 2,
+                "parent_name": "",
+                "name": "ParametersInner",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Parameters.h",
+                "line": 8,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@Parameters",
+                "kind": 2,
+                "parent_name": "",
+                "name": "Parameters",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Parameters.h",
+                "line": 23,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@Parameters@F@Integral#d#d#1",
+                "kind": 7,
+                "parent_name": "Parameters",
+                "name": "Integral(double, double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Parameters.h",
+                "line": 43,
+                "column": 27,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@Parameters@F@IntegralSquare#d#d#1",
+                "kind": 7,
+                "parent_name": "Parameters",
+                "name": "IntegralSquare(double, double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Parameters.h",
+                "line": 48,
+                "column": 27,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ParametersConstant",
+                "kind": 2,
+                "parent_name": "",
+                "name": "ParametersConstant",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Parameters.h",
+                "line": 55,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ParkMiller.cpp",
+        "file_last_write": 1717872551.0,
+        "definitions": [
+            {
+                "usr": "c:@S@ParkMiller@F@SetSeed#L#",
+                "kind": 7,
+                "parent_name": "ParkMiller",
+                "name": "SetSeed(long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ParkMiller.cpp",
+                "line": 16,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ParkMiller@F@Max#S",
+                "kind": 7,
+                "parent_name": "ParkMiller",
+                "name": "Max",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ParkMiller.cpp",
+                "line": 23,
+                "column": 27,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ParkMiller@F@Min#S",
+                "kind": 7,
+                "parent_name": "ParkMiller",
+                "name": "Min",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ParkMiller.cpp",
+                "line": 28,
+                "column": 27,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@ParkMiller@F@GetOneRandomInteger#",
+                "kind": 7,
+                "parent_name": "ParkMiller",
+                "name": "GetOneRandomInteger",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ParkMiller.cpp",
+                "line": 33,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@RandomParkMiller@F@clone#1",
+                "kind": 7,
+                "parent_name": "RandomParkMiller",
+                "name": "clone",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ParkMiller.cpp",
+                "line": 51,
+                "column": 31,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@RandomParkMiller@F@GetUniforms#&$@S@MJArray#",
+                "kind": 7,
+                "parent_name": "RandomParkMiller",
+                "name": "GetUniforms(MJArray &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ParkMiller.cpp",
+                "line": 56,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@RandomParkMiller@F@Skip#l#",
+                "kind": 7,
+                "parent_name": "RandomParkMiller",
+                "name": "Skip(unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ParkMiller.cpp",
+                "line": 64,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@RandomParkMiller@F@SetSeed#l#",
+                "kind": 7,
+                "parent_name": "RandomParkMiller",
+                "name": "SetSeed(unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ParkMiller.cpp",
+                "line": 71,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@RandomParkMiller@F@Reset#",
+                "kind": 7,
+                "parent_name": "RandomParkMiller",
+                "name": "Reset",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ParkMiller.cpp",
+                "line": 77,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@RandomParkMiller@F@ResetDimensionality#l#",
+                "kind": 7,
+                "parent_name": "RandomParkMiller",
+                "name": "ResetDimensionality(unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ParkMiller.cpp",
+                "line": 82,
+                "column": 24,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ParkMiller.h",
+        "file_last_write": 1717872550.0,
+        "definitions": [
+            {
+                "usr": "c:@S@ParkMiller",
+                "kind": 2,
+                "parent_name": "",
+                "name": "ParkMiller",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ParkMiller.h",
+                "line": 8,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@RandomParkMiller",
+                "kind": 2,
+                "parent_name": "",
+                "name": "RandomParkMiller",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/ParkMiller.h",
+                "line": 26,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/PayOff3.cpp",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@PayOffCall@F@operator()#d#1",
+                "kind": 7,
+                "parent_name": "PayOffCall",
+                "name": "operator(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/PayOff3.cpp",
+                "line": 10,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@PayOffCall@F@clone#1",
+                "kind": 7,
+                "parent_name": "PayOffCall",
+                "name": "clone",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/PayOff3.cpp",
+                "line": 14,
+                "column": 21,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@PayOffPut@F@operator()#d#1",
+                "kind": 7,
+                "parent_name": "PayOffPut",
+                "name": "operator(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/PayOff3.cpp",
+                "line": 19,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@PayOffPut@F@clone#1",
+                "kind": 7,
+                "parent_name": "PayOffPut",
+                "name": "clone",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/PayOff3.cpp",
+                "line": 26,
+                "column": 20,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/PayOff3.h",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@PayOff",
+                "kind": 2,
+                "parent_name": "",
+                "name": "PayOff",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/PayOff3.h",
+                "line": 6,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@PayOffCall",
+                "kind": 2,
+                "parent_name": "",
+                "name": "PayOffCall",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/PayOff3.h",
+                "line": 19,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@PayOffPut",
+                "kind": 2,
+                "parent_name": "",
+                "name": "PayOffPut",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/PayOff3.h",
+                "line": 33,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/PayOffBridge.cpp",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@PayOffBridge@F@operator=#&1$@S@PayOffBridge#",
+                "kind": 7,
+                "parent_name": "PayOffBridge",
+                "name": "operator=(const PayOffBridge &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/PayOffBridge.cpp",
+                "line": 18,
+                "column": 29,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/PayOffBridge.h",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@PayOffBridge",
+                "kind": 2,
+                "parent_name": "",
+                "name": "PayOffBridge",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/PayOffBridge.h",
+                "line": 8,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@PayOffBridge@F@operator()#d#1",
+                "kind": 7,
+                "parent_name": "PayOffBridge",
+                "name": "operator(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/PayOffBridge.h",
+                "line": 22,
+                "column": 29,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Random2.cpp",
+        "file_last_write": 1717872547.0,
+        "definitions": [
+            {
+                "usr": "c:@S@RandomBase@F@GetGaussians#&$@S@MJArray#",
+                "kind": 7,
+                "parent_name": "RandomBase",
+                "name": "GetGaussians(MJArray &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Random2.cpp",
+                "line": 9,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@RandomBase@F@ResetDimensionality#l#",
+                "kind": 7,
+                "parent_name": "RandomBase",
+                "name": "ResetDimensionality(unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Random2.cpp",
+                "line": 20,
+                "column": 18,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Random2.h",
+        "file_last_write": 1717872546.0,
+        "definitions": [
+            {
+                "usr": "c:@S@RandomBase",
+                "kind": 2,
+                "parent_name": "",
+                "name": "RandomBase",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Random2.h",
+                "line": 8,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@RandomBase@F@GetDimensionality#1",
+                "kind": 7,
+                "parent_name": "RandomBase",
+                "name": "GetDimensionality",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Random2.h",
+                "line": 31,
+                "column": 27,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/RandomMain3.cpp",
+        "file_last_write": 1717881195.0,
+        "definitions": [
+            {
+                "usr": "c:@F@MCEuropeanOptionPricer#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#d#d#d#d#d#b#l#l#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "MCEuropeanOptionPricer(std::string, double, double, double, double, double, bool, unsigned long, unsigned long)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/RandomMain3.cpp",
+                "line": 21,
+                "column": 8,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/SimpleMC8.cpp",
+        "file_last_write": 1717874322.0,
+        "definitions": [
+            {
+                "usr": "c:@F@SimpleMonteCarlo6#&1$@S@VanillaOption#d#&1$@S@Parameters#S2_#l#&$@S@StatisticsMC#&$@S@RandomBase#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "SimpleMonteCarlo6(const VanillaOption &, double, const Parameters &, const Parameters &, unsigned long, StatisticsMC &, RandomBase &)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/SimpleMC8.cpp",
+                "line": 10,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/SimpleMC8.h",
+        "file_last_write": 1713893984.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Vanilla3.cpp",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@VanillaOption@F@GetExpiry#1",
+                "kind": 7,
+                "parent_name": "VanillaOption",
+                "name": "GetExpiry",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Vanilla3.cpp",
+                "line": 9,
+                "column": 23,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@VanillaOption@F@OptionPayOff#d#1",
+                "kind": 7,
+                "parent_name": "VanillaOption",
+                "name": "OptionPayOff(double)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Vanilla3.cpp",
+                "line": 13,
+                "column": 23,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Vanilla3.h",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@S@VanillaOption",
+                "kind": 2,
+                "parent_name": "",
+                "name": "VanillaOption",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/Vanilla3.h",
+                "line": 8,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/VecMeanStdDev.cpp",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@F@mean#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "mean(std::vector<double>)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/VecMeanStdDev.cpp",
+                "line": 7,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@stdDev#$@N@std@S@vector>#d#$@N@std@S@allocator>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "stdDev(std::vector<double>)",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/VecMeanStdDev.cpp",
+                "line": 21,
+                "column": 8,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/VecMeanStdDev.h",
+        "file_last_write": 1713893985.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/rcpp_hello.cpp",
+        "file_last_write": 1715705125.0,
+        "definitions": [
+            {
+                "usr": "c:@F@rcpp_hello#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "rcpp_hello",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/rcpp_hello.cpp",
+                "line": 18,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/wrapper.h",
+        "file_last_write": 1713893985.0,
+        "definitions": [
+            {
+                "usr": "c:@ST>1#T@Wrapper",
+                "kind": 2,
+                "parent_name": "",
+                "name": "Wrapper<T>",
+                "file": "C:/Users/afost/Documents/UW/Y2/S2/CPP/gh2/gh2_v1/src/wrapper.h",
+                "line": 7,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    }
+]
